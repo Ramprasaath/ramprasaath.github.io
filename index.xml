@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Senthil Purushwalkam | AI Research</title>
-    <link>https://www.senthilpurushwalkam.com/</link>
-      <atom:link href="https://www.senthilpurushwalkam.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Senthil Purushwalkam | AI Research</description>
+    <title>Ramprasaath R. Selvaraju | AI Research</title>
+    <link>https://ramselvaraju.com/</link>
+      <atom:link href="https://ramselvaraju.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ramprasaath R. Selvaraju | AI Research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.senthilpurushwalkam.com/img/icon-192.png</url>
-      <title>Senthil Purushwalkam | AI Research</title>
-      <link>https://www.senthilpurushwalkam.com/</link>
+      <url>https://ramselvaraju.com/img/icon-192.png</url>
+      <title>Ramprasaath R. Selvaraju | AI Research</title>
+      <link>https://ramselvaraju.com/</link>
     </image>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://www.senthilpurushwalkam.com/talk/</link>
+      <link>https://ramselvaraju.com/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/talk/</guid>
+      <guid>https://ramselvaraju.com/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://www.senthilpurushwalkam.com/publication/</link>
+      <link>https://ramselvaraju.com/publication/</link>
       <pubDate>Thu, 17 Oct 2024 00:14:00 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/</guid>
+      <guid>https://ramselvaraju.com/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://www.senthilpurushwalkam.com/post/</link>
+      <link>https://ramselvaraju.com/post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/post/</guid>
+      <guid>https://ramselvaraju.com/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.senthilpurushwalkam.com/personal/</link>
+      <link>https://ramselvaraju.com/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/personal/</guid>
+      <guid>https://ramselvaraju.com/personal/</guid>
       <description></description>
     </item>
     

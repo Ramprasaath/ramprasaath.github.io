@@ -1,201 +1,111 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Senthil Purushwalkam | AI Research</title>
-    <link>https://www.senthilpurushwalkam.com/publication/</link>
-      <atom:link href="https://www.senthilpurushwalkam.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Ramprasaath R. Selvaraju | AI Research</title>
+    <link>https://ramprasaathselvaraju.com/publication/</link>
+      <atom:link href="https://ramprasaathselvaraju.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:14:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 18 Mar 2024 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://www.senthilpurushwalkam.com/img/icon-192.png</url>
+      <url>https://ramprasaathselvaraju.com/img/icon-192.png</url>
       <title>Publications</title>
-      <link>https://www.senthilpurushwalkam.com/publication/</link>
+      <link>https://ramprasaathselvaraju.com/publication/</link>
     </image>
     
     <item>
-      <title>Trust but Verify: Programmatic VLM Evaluation in the Wild</title>
-      <link>https://www.senthilpurushwalkam.com/publication/prove/</link>
-      <pubDate>Thu, 17 Oct 2024 00:14:00 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/prove/</guid>
+      <title>Align before Fuse: Vision and Language Representation Learning with Momentum Distillation</title>
+      <link>https://ramprasaathselvaraju.com/publication/albef/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/albef/</guid>
+      <description>we introduce a contrastive loss to ALign the image and text representations BEfore Fusing (ALBEF) them through cross-modal attention, which enables more grounded vision and language representation learning. ALBEF achieves state-of-the-art performance on multiple downstream vision-language tasks. On image-text retrieval, ALBEF outperforms methods that are pre-trained on orders of magnitude larger datasets. On VQA and NLVR2, ALBEF achieves absolute improvements of 2.37% and 3.84% compared to the state-of-the-art, while enjoying faster inference speed.</description>
+    </item>
+    
+    <item>
+      <title>SOrTing VQA Models: Improving Consistency via Gradient Alignment</title>
+      <link>https://ramprasaathselvaraju.com/publication/sort/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/sort/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FaithEval: Can Your Language Model Stay Faithful to Context, Even If &#34;The Moon is Made of Marshmallows&#34;</title>
-      <link>https://www.senthilpurushwalkam.com/publication/faitheval/</link>
-      <pubDate>Tue, 08 Oct 2024 00:14:00 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/faitheval/</guid>
+      <title>CASTing Your Model: Learning to Localize Improves Self-Supervised Representations</title>
+      <link>https://ramprasaathselvaraju.com/publication/cast/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/cast/</guid>
+      <description>Introducing CAST—a generic training recipe to fix visual grounding ability of contrastive SSL models (eg MoCo) and make them work on complex scene images (eg COCO)!</description>
+    </item>
+    
+    <item>
+      <title>SQuINTing at VQA Models: Interrogating VQA Models with Sub-Questions</title>
+      <link>https://ramprasaathselvaraju.com/publication/squint/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/squint/</guid>
+      <description>We investigate the capabilities of VQA models for solving tasks that differ in nature and in complexity. We notice that existing VQA models have consistency issues -- they answer complex reasoning question correctly but fail on associated low-level perception sub-questions. We quantify the extent to which this phenomenon occurs by creating a new Reasoning split and collecting Sub-VQA, a new dataset consisting of associated perception sub-questions needed to effectively answer the main reasoning question. Additionally, we propose SQuINT approach which enforces models be right for the right reasons.</description>
+    </item>
+    
+    <item>
+      <title>Visual Explanations from Deep Networks</title>
+      <link>https://ramprasaathselvaraju.com/publication/visual-explanations/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/visual-explanations/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SFR-RAG: Towards Contextually Faithful LLMs</title>
-      <link>https://www.senthilpurushwalkam.com/publication/sfr_rag/</link>
-      <pubDate>Mon, 16 Sep 2024 00:14:00 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/sfr_rag/</guid>
-      <description></description>
+      <title>Taking a HINT: Leveraging Explanations to Make Vision and Language Models More Grounded</title>
+      <link>https://ramprasaathselvaraju.com/publication/hint/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/hint/</guid>
+      <description>We notice that many vision and language models suffer from poor visual grounding - often falling back on easy-to-learn language priors rather than basing their decisions on visual concepts in the image. To tackle this, we propose Human Importance-aware Network Tuning (HINT) that effectively leverages human demonstrations to improve visual grounding. We show that encouraging these models to look at same regions as humans makes them generalize to new distributions better.</description>
     </item>
     
     <item>
-      <title>xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations</title>
-      <link>https://www.senthilpurushwalkam.com/publication/xgenvideo/</link>
-      <pubDate>Fri, 23 Aug 2024 00:14:12 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/xgenvideo/</guid>
-      <description></description>
+      <title>Trick or Treat: Thematic Reinforcement for Artistic Typography</title>
+      <link>https://ramprasaathselvaraju.com/publication/treat/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/treat/</guid>
+      <description>We propose an approach to make text visually appealing and memorable is semantic reinforcement - the use of visual cues alluding to the context or theme in which the word is being used to reinforce the message (e.g., Google Doodles). Given an input word (e.g. exam) and a theme (e.g. education), the individual letters of the input word are replaced by cliparts relevant to the theme which visually resemble the letters - adding creative context to the potentially boring input word.</description>
     </item>
     
     <item>
-      <title>xGen-MM (BLIP-3): A Family of Open Large Multimodal Models</title>
-      <link>https://www.senthilpurushwalkam.com/publication/xgenmm/</link>
-      <pubDate>Fri, 16 Aug 2024 00:14:00 -0700</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/xgenmm/</guid>
-      <description></description>
+      <title>Choose Your Neuron: Incorporating Domain Knowledge into Deep Networks through Neuron Importance</title>
+      <link>https://ramprasaathselvaraju.com/publication/niwt/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/niwt/</guid>
+      <description>Individual neurons in CNNs implicitly learn semantically meaningful concepts ranging from simple textures and shapes to whole objects. We introduce an efficient zero-shot learning approach that learns to map domain knowledge about novel classes onto this dictionary of learned concepts and then optimizes for network parameters that can effectively combine these concepts. We also show how our approach can provide visual and textual explanations including neuron names.</description>
     </item>
     
     <item>
-      <title>BootPIG: Bootstrapping Zero-shot Personalized Image Generation Capabilities in Pretrained Diffusion Models</title>
-      <link>https://www.senthilpurushwalkam.com/publication/bootpig/</link>
-      <pubDate>Tue, 09 Jan 2024 00:16:37 -0800</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/bootpig/</guid>
-      <description></description>
+      <title>Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models</title>
+      <link>https://ramprasaathselvaraju.com/publication/dbs/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/dbs/</guid>
+      <description>We propose Diverse Beam Search (DBS), an alternative to BS that decodes a list of diverse outputs by optimizing for a diversity-augmented objective. We observe that our method finds better top-1 solutions by controlling for the exploration and exploitation of the search space - implying that DBS is a better search algorithm. We study the role of diversity for image-grounded language generation tasks as the complexity of the image changes.</description>
     </item>
     
     <item>
-      <title>Diffusion Model Alignment Using Direct Preference Optimization</title>
-      <link>https://www.senthilpurushwalkam.com/publication/diffdpo/</link>
-      <pubDate>Sat, 09 Dec 2023 00:16:37 -0800</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/diffdpo/</guid>
-      <description></description>
+      <title>Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</title>
+      <link>https://ramprasaathselvaraju.com/publication/gradcam/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/gradcam/</guid>
+      <description>We propose a technique for producing "visual explanations" for decisions from a large class of CNN-based models, making them more transparent. Our approach - Gradient-weighted Class Activation Mapping (Grad-CAM), uses the gradients of any target concept, flowing into the final convolutional layer to produce a coarse localization map highlighting important regions in the image for predicting the concept. Grad-CAM is applicable to a wide variety of CNN model-families: (1) CNNs with fully-connected layers, (2) CNNs used for structured outputs, (3) CNNs used in tasks with multimodal inputs or reinforcement learning, without any architectural changes or re-training. We apply Grad-CAM to off-the-shelf image classification, captioning, and visual question answering (VQA) models, including ResNet-based architectures. In the context of image classification models, our visualizations (a) lend insights into their failure modes, (b) are robust to adversarial images, (c) outperform previous methods on localization, (d) are more faithful to the underlying model and (e) help achieve generalization by identifying dataset bias. For captioning and VQA, we show that even non-attention based models can localize inputs. Finally, we design and conduct human studies to measure if Grad-CAM helps users establish appropriate trust in predictions from models and show that Grad-CAM helps untrained users successfully discern a 'stronger' model from a 'weaker' one even when both make identical predictions.</description>
     </item>
     
     <item>
-      <title>ConRad: Image Constrained Radiance Fields for 3D Generation from a Single Image</title>
-      <link>https://www.senthilpurushwalkam.com/publication/conrad/</link>
-      <pubDate>Thu, 09 Nov 2023 00:16:37 -0800</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/conrad/</guid>
-      <description></description>
+      <title>Counting Everyday Objects in Everyday Scenes</title>
+      <link>https://ramprasaathselvaraju.com/publication/counting/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/counting/</guid>
+      <description>We study the numerosity of object classes in natural, everyday images and build dedicated models for counting designed to tackle the large variance in counts, appearances, and scales of objects found in natural scenes. We propose a contextual counting approach inspired by the phenomenon of subitizing - the ability of humans to make quick assessments of counts given a perceptual signal, for small count values.</description>
     </item>
     
     <item>
-      <title>The Challenges of Continuous Self-Supervised Learning</title>
-      <link>https://www.senthilpurushwalkam.com/publication/continuousssl/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/continuousssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Unsurprising Effectiveness of Pre-trained Vision Models for Control</title>
-      <link>https://www.senthilpurushwalkam.com/publication/visualrepforrl/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/visualrepforrl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Functional Correspondence Problem</title>
-      <link>https://www.senthilpurushwalkam.com/publication/functional/</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/functional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio-Visual Floorplan Reconstruction</title>
-      <link>https://www.senthilpurushwalkam.com/publication/avmap/</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/avmap/</guid>
-      <description>&lt;h1 id=&#34;interior-prediction-videos&#34;&gt;Interior Prediction Videos&lt;/h1&gt;
-&lt;p&gt;Here we present visualizations of interior maps being constructed online as the camera (cone) moves through environments.&lt;/p&gt;
-&lt;p&gt;As explained in the paper, we consider two settings:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Environment Generated Audio&lt;/strong&gt;: In this setting, the sounds are produced by objects/people in the environments. For example, a person typing on a keyboard in the office, a dishwasher in the kitchen, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Device Generated Audio&lt;/strong&gt;: In this setting, the recording device emits a sound (frequency sweep) at each time step.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;environment-generated-all-room-audio-setting&#34;&gt;Environment Generated All Room Audio Setting&lt;/h2&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wRslVfd1hOI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;device-generated-audio-setting&#34;&gt;Device Generated Audio Setting&lt;/h2&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/i69iC4DVJsc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Demystifying Contrastive Self-Supervised Learning: Invariances, Augmentations and Dataset Biases</title>
-      <link>https://www.senthilpurushwalkam.com/publication/demystifyssl/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/demystifyssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aligning Videos in Space and Time</title>
-      <link>https://www.senthilpurushwalkam.com/publication/alignvideos/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/alignvideos/</guid>
-      <description>&lt;h1 id=&#34;qualitative-results-on-penn-action&#34;&gt;Qualitative Results on Penn Action&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;penn temporal alignment1&#34; src=&#34;https://www.senthilpurushwalkam.com/publication/alignvideos/baseball_pitch_0027.jpg&#34;&gt;
-&lt;img alt=&#34;penn temporal alignment2&#34; src=&#34;https://www.senthilpurushwalkam.com/publication/alignvideos/golf_swing_0347.jpg&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;qualitative-results-on-pouring-dataset&#34;&gt;Qualitative Results on Pouring Dataset&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;pouring temporal alignment&#34; src=&#34;https://www.senthilpurushwalkam.com/publication/alignvideos/pouringalign.png&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;qualitative-results-on-epic-kitchens&#34;&gt;Qualitative Results on EPIC Kitchens&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;epic temporal alignment&#34; src=&#34;https://www.senthilpurushwalkam.com/publication/alignvideos/epic.png&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Task-Driven Modular Networks for Zero-Shot Compositional Learning</title>
-      <link>https://www.senthilpurushwalkam.com/publication/compositional/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/compositional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bounce and Learn: Modeling Scene Dynamics with Real-World Bounces</title>
-      <link>https://www.senthilpurushwalkam.com/publication/bouncelearn/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/bouncelearn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pose from Action: Unsupervised Learning of Pose Features based on Motion</title>
-      <link>https://www.senthilpurushwalkam.com/publication/poseaction/</link>
-      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/poseaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic Multiple Choice Learning for Training Diverse Deep Ensembles</title>
-      <link>https://www.senthilpurushwalkam.com/publication/smcl/</link>
-      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/smcl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Why M Heads are Better than One: Training a Diverse Ensemble of Deep Networks</title>
-      <link>https://www.senthilpurushwalkam.com/publication/mheads/</link>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/mheads/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Combining the Best of Graphical Models and ConvNets for Semantic Segmentation</title>
-      <link>https://www.senthilpurushwalkam.com/publication/gmcnn/</link>
-      <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/gmcnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic Segmentation of Adipose Tissue from Thigh Magnetic Resonance Images</title>
-      <link>https://www.senthilpurushwalkam.com/publication/mriseg/</link>
-      <pubDate>Sun, 15 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.senthilpurushwalkam.com/publication/mriseg/</guid>
-      <description></description>
+      <title>The Semantic Paintbrush: Interactive 3D Mapping and Recognition in Large Outdoor Spaces</title>
+      <link>https://ramprasaathselvaraju.com/publication/paintbrush/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 -0700</pubDate>
+      <guid>https://ramprasaathselvaraju.com/publication/paintbrush/</guid>
+      <description>We present an augmented reality system for large scale 3D reconstruction and recognition in outdoor scenes. We use a purely passive stereo setup, allowing for outdoor use. In addition to producing a map of the 3D environment in real-time, it also allows the user to draw (or 'paint') with a laser pointer directly onto the reconstruction to segment the model into objects.</description>
     </item>
     
   </channel>
