@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ramprasaath R. Selvaraju 
-email: ramprs@gatech.edu
+email: ramprasaath.21@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ramprasaath is a 5th year PhD student working with Devi Parikh and Dhruv Batra at Georgia Tech.
+  Ramprasaath is a Senior Research Scientist at Apple, specializing in Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ramprs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ramprasaath.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ramprasaath21
-github_username:  ramprs
+github_username:  Ramprasaath
 
 # Build settings
 markdown: kramdown
